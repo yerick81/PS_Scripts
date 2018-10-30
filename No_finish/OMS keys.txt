@@ -1,0 +1,23 @@
+MB production: 
+WorkspaceID: c14566c7-1cf3-444c-8ff9-5180eba9fc90
+Key: sEayuTOU4FTHhaXLriXvtseV8I56BH1/Eoykh5DBOlASlMujHKifoyIGwHPolE8kn7M973J3TVa1gdPftRgfJA==
+
+Paymentn Brands
+WorkspaceID: 1a4f4d96-685a-46ae-8c1b-ddb0e993d2d8
+Key: Lff7pJxa+ybuTcDmQn0gvleIf/m2uluzYqEot/ducoAFsBsr1aLr2p+FyYg+H2kTr//vWSfXLBm1DjEYz0XvPQ==
+
+Shared Services
+WorkspaceID: cf21b089-6bb6-4b65-ae7f-6be96fc6872c
+Key: GWhftP5VysjFN76B2qf9ux8zVGO5JgWZgUXLpT0tknS0B30HHB7oVMTWzcUTzhmG4zW7FFkLtKn85uyJSTBc/g==
+
+SiteOrganic
+WorkspaceID: 98e10f42-3533-48ea-9456-523195d03e37
+Key: BWXHNZBC7b5QztKXgdfgzWWPmp/PTb0rb0wq+LM70Mo0hdfl/vBGy18SNLy3qw3qnSJjwFR+vzN9+Q6bg36Jlw==
+
+ParishSoft
+WorkspaceID: b26f874c-761c-4fd4-9cbc-af299e12b1ae
+Key: mPh6qkjE+6N5Nt1r0qMyV5yQfp0U0VBmBDG/tm9YWg46aqVCdTlA4gi7G1Rnwfl1WFzvcwEZqKoG4S/kdtV/rg==
+
+Shelby
+WorkSpaceID: f1fc31f4-4e4c-4b61-8ac9-ecdc57b54381
+Key: vNfSPmZC3XBM+CmqffUAmryjm3BPEqVpy1OWwiYfxpUTgPT2OyrHa77Pse237H2iRqEsAkUmWS0SGMBTXWDkPQ==
