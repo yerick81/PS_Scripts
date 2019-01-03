@@ -4,7 +4,7 @@ $APP = Get-WmiObject -class win32_product | where name -like "Datadog Agent"
 $IIS = Get-WmiObject -List -Namespace root\cimv2 | select -Property name | where name -like "*Win32_PerfFormattedData_W3SVC*"
 $SQL = Get-WmiObject -list -namespace root\cimv2 | select -property name | where name -like "*SQLServerDatabase*"
 #$SQL = Get-WmiObject -list -namespace root\cimv2 | select -property name | where name -like "*SQLServer*"
-$FileName = "datadog-agent-6-6.0.0.amd64.msi"
+$FileName = "datadog-agent-6-latest.amd64.msi"
 $DDFolder = 'C:\Sources'
 
 Invoke-Command {
@@ -65,8 +65,8 @@ if ($app.name -ne "Datadog Agent") {
   }
   else  {
     Write-Host "The file $FileName does not exist, downloading..." -NoNewline -ForegroundColor Red
-    $URL = "https://s3.amazonaws.com/ddagent-windows-stable/datadog-agent-6-6.0.0.amd64.msi"
-    Invoke-WebRequest -Uri $URL -OutFile "$DDFolder\datadog-agent-6-6.0.0.amd64.msi" | Out-Null
+    $URL = "https://s3.amazonaws.com/ddagent-windows-stable/datadog-agent-6-latest.amd64.msi"
+    Invoke-WebRequest -Uri $URL -OutFile "$DDFolder\datadog-agent-6-latest.amd64.msi" | Out-Null
     Write-Host "done!" -ForegroundColor Green
   }
 
